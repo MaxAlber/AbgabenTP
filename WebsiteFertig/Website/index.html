@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Titel</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styleIntro.css">
+
+</head>
+    
+ <audio id="audio_with_controls"
+  src="musik/themeFadedAndCuttedTake1.mp3" type="audio/mp3" autoplay="true"  loop="false">
+       Ihr Browser kann dieses Tondokument nicht wiedergeben.<br>
+</audio>
+    
+    <script>
+        
+        
+        
+        function toIndex()
+        {
+            
+            window.location = "index1.html";
+            
+        }
+        
+        
+        
+        function start()
+        {
+            setTimeout(toIndex, 10000);
+        }
+        
+        
+        
+    </script>
+
+<body>
+  <script src="js/scripts.js"></script>
+    
+    
+    
+    <div id="logo">
+        
+    <img onload="start()" src="Bilder/head.png" alt="Cartoon Kopf A Clockwork Orange" >
+        
+    </div>
+    
+    
+    
+    
+</body>
+</html>

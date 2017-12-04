@@ -1,0 +1,57 @@
+body
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: orange;
+}
+
+p
+{
+    padding: 10px;
+}
+
+#logo
+{
+    position: fixed;
+    top:49%;
+    left:49%;
+    animation-name: centering;
+    animation-duration: 20s;
+}
+
+img
+{
+    width: 65px;
+    height: 72px;
+    animation-name: zooming;
+    animation-duration: 20s;
+}
+
+@keyframes zooming
+{
+    from
+    {
+        width:65px;
+        height:72px;
+    }
+    to
+    {
+        width:650px;
+        height:720px;
+    }
+}
+
+
+@keyframes centering
+{
+    from
+    {
+        top:49%;
+        left:49%;
+    }
+    to
+    {
+        top:10%;
+        left:25%;
+    }
+}

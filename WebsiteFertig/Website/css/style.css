@@ -1,0 +1,264 @@
+
+html
+{
+    height:100%;
+    width:100%;
+    
+  
+
+}
+
+body
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: orange;
+    color:#333;
+    height:99%;
+    width:99%;
+    margin-bottom: 10%;
+    
+}
+
+p {
+    padding: 10px;
+}
+
+img
+{
+    width:258px;
+    height:420px;
+    position:relative;
+}
+
+#cover
+{
+    position:relative;
+    margin:auto;
+    margin-top:auto;
+    width:420px;
+    height:258px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#header {
+    float: left;
+    height: 75px;
+    width: 100%;
+    background: #FF6633;
+}
+
+#navigation {
+    float: left;
+    height: 40px;
+    width: 100%;
+    background: #FFCC33;
+}
+
+#content {
+    float: left;
+    background: #FFFFFF;
+    width: 850px;
+}
+
+#leftcolumn {
+    position:relative;
+    background: #33CCFF;
+    width: 150px;
+    float: left;
+    
+}
+
+#footer {
+    float:left;
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    width: 100%;
+    background: #333333;
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 1px;
+    padding-top: 20px;
+    color:white;
+}
+
+#footer:hover
+{
+    color:orange;
+}
+
+
+#footerelement1
+{
+    padding-left:20px;
+    text-align: left;
+    float: left;
+}
+
+
+#footerelement2
+{
+    text-align: center;
+}
+
+
+#contentbox
+{
+    
+    position: relative;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 200px;
+    min-height: 100px;
+    width:33%;
+    height:30%;
+    text-align: center;
+    padding:auto;
+}
+
+#contentbox2
+{
+    
+    position: relative;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 200px;
+    min-height: 100px;
+    width:33%;
+    height:30%;
+    text-align: center;
+    padding:auto;
+}
+
+#contentbox:hover
+{
+
+ -webkit-filter: blur(10px);
+
+}
+
+#contentboxitem
+{
+    position: relative;
+    width: 20%;
+    height:20%;
+    vertical-align: middle;
+    top:45%;
+    bottom:40%;
+    text-align: center;
+    left:40%;
+    
+}
+
+
+#contentbox:hover
+{
+    
+background-color: black;
+    
+}
+
+#eyelogo
+{
+    width:150px;
+    height:150px;
+    
+    
+}
+
+#eyelogo:hover
+{
+    
+    
+   -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+
+#contentlogo
+{
+    height:40%;
+    width:30%;
+}
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal
+{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content
+{
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close
+{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus
+{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.myBtn
+{
+    background-color: orange;
+    width:100%;
+    height: 100%;
+    border: none;
+}
+
+.myBtn:hover
+{
+   /* background-color: black;*/
+    width:100%;
+    height: 100%;
+    border: none;
+}
+
